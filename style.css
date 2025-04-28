@@ -1,0 +1,18 @@
+/* Reset básico para remover margens */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* fundo preto estilo retro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* tela inteira */
+  }
+  
+  /* Estilo do Canvas */
+  #gameCanvas {
+    background-color: #111; /* cor de fundo do canvas */
+    border: 2px solid #fff; /* borda branca */
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0ff; /* efeito neon bonito */
+  }
+  
